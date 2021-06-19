@@ -142,6 +142,7 @@ function Record(props) {
       <Text style={{fontSize: 50, textAlign: 'center', fontWeight: 'bold'}}> {"Record\n\n"}</Text>
       <View style={{margin: 50}}>
       <FlatList
+        style={{height: 350}}
         data={note}
         renderItem={({ item }) => {
           //console.log('item ', item)

@@ -33,7 +33,7 @@
        <Text style={{fontSize: 50, textAlign: 'center', fontWeight: 'bold'}}> {"note" + "\n\n"}</Text>
        <FlatList
         data={currentNote}
-        
+        style={{height: 500}}
         renderItem={({ item }) => {
           //console.log('item ', item)
           return(

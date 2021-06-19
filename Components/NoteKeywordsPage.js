@@ -52,7 +52,7 @@
        <View style={{padding: 20}}>
        <FlatList
         data={display}
-        
+        style={{height: 400}}
         renderItem={({ item }) => {
           //console.log('item ', item)
           return(
